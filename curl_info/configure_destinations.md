@@ -1,4 +1,4 @@
-cURL requests to configure Google Analytics
+# cURL requests to configure Google Analytics
 
 
 Requirements:
@@ -26,6 +26,7 @@ Requirements:
   }
 '```
 
+## Braze
 ```curl -X POST \
   'https://platform.segmentapis.com/v1beta/workspaces/{{workspace_slug}}/sources/workshop_source/destinations/' \
   -H 'Accept: */*' \
