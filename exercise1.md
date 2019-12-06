@@ -26,14 +26,20 @@ password: <will be on the whiteboard>
 9. Click the “Save Changes” button.
 ![](misc/img/workspace_name.png)
 
-## Part 2 - Create Segment Sources
-Segment Sources allow you to collect semantic events as your users interact with your web sites, mobile applications, or server-side applications.  For this workshop, you will set up sources for a web application, an Android application, and iOS mobile application.  We will also create a source that will be used to send recommendations from Personalize to user profiles in Segment.
+## Part 2 - Create Segment Source
+Segment Sources allow you to collect semantic events as your users interact with your web sites, mobile applications, or server-side applications.  For this workshop, you will set up an HTTP source
 Your initial Segment workspace will look like this:
+
 ![](misc/img/workspace_overview.png)
 You will need to add four sources, using the ‘Add Source’ button in the screen shot above.  To set up a source:
+
 ![](misc/img/http.png)
+
 ![](misc/img/connect.png)
+
+Please enter "workshop_source" as the source name. It'll be used as part of the request URLs we will be making in exercise 2.
 ![](misc/img/workshop_name.png)
+
 Once your source is configured, it will appear in your workspace like this:
 ![](misc/img/source_done.png)
 
