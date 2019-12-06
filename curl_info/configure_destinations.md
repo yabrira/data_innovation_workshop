@@ -6,7 +6,8 @@ Requirements:
 
 
 ## Google Analytics
-```curl -X POST \
+```
+curl -X POST \
   https://platform.segmentapis.com/v1beta/workspaces/{{insert workspace slug here}}/sources/workshop_source/destinations/ \
   -H 'Authorization: Bearer {{insert access token here}}' \
   -H 'Content-Type: application/json' \
@@ -24,10 +25,12 @@ Requirements:
       "connection_mode": "CLOUD"
     }
   }
-'```
+'
+```
 
 ## Braze
-```curl -X POST \
+```
+curl -X POST \
   'https://platform.segmentapis.com/v1beta/workspaces/{{workspace_slug}}/sources/workshop_source/destinations/' \
   -H 'Accept: */*' \
   -H 'Authorization: Bearer {{insert access token here}}' \
@@ -52,4 +55,5 @@ Requirements:
       "enabled": false
     }
   }
-'```
+'
+```
