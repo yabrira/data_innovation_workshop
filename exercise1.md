@@ -3,7 +3,7 @@ For the live workshop exercises, Segment has pre-provisioned workspaces for the 
 To get your workshop workspace:
 1. Open the Google Sheet at [Segment Workspaces](https://docs.google.com/spreadsheets/d/17FvUoABdw2bA_cRhEqaJ6j3P3VoCm4pIfq7RfvScvRc/edit?usp=sharing)
 2. Find an unclaimed workspace
-![](https://www.dropbox.com/s/yvodkloz987cs84/Screen%20Shot%202019-12-06%20at%206.42.44%20PM.png?dl=0)
+![](https://cl.ly/5e53731ea8da)
 3. Claim your shiny new Segment workspace by putting your name in the appropriate fields, please.
 
 ## Part 1 - Set up Your Segment Workspace
@@ -15,7 +15,7 @@ After you have claimed your workspace, there are a couple of steps you need to f
 username: yanis.b+apidays_workshop_paris@segment.com
 password: <will be on the whiteboard>
 ```
-![](https://paper.dropbox.com/ep/redirect/image?url=https%3A%2F%2Fpaper-attachments.dropbox.com%2Fs_4F971EE2E8698F2EB68A6C5183D3804CDEC6E0DE0A589AB3E5D2C1E561F6F6AB_1575659374647_Screen%2BShot%2B2019-12-06%2Bat%2B7.08.19%2BPM.png
+![](https://cl.ly/82baf85924f6)
 4. Click the “Log In” button.
 5. Find the workspace name you claimed in the spreadsheet.
 6. Click the tile with the name you claimed.
