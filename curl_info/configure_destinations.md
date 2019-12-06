@@ -21,7 +21,7 @@ curl -X POST \
           "value": UA-153856743-2
         }
       ],
-      "enabled": false,
+      "enabled": true,
       "connection_mode": "CLOUD"
     }
   }
@@ -52,7 +52,7 @@ curl -X POST \
         }
         
       ],
-      "enabled": false
+      "enabled": true
     }
   }
 '
