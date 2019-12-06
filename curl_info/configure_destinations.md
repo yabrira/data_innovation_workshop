@@ -1,4 +1,4 @@
-# cURL requests to configure Google Analytics
+# cURL requests to configure Google Analytics & Braze
 
 
 Requirements:
