@@ -1,0 +1,235 @@
+{
+	"info": {
+		"_postman_id": "052c7f70-58ac-400b-8cdb-54f6c11e056d",
+		"name": "API Days workshop - Paris",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Destination configuration",
+			"item": [
+				{
+					"name": "Configure Google Analtyics",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer LhPYnOZkIXZDeQ4rLv_8TxnucAtaLB4xnVXerdaZKO0.X0DSGMt2dGXgviqsfyQTkrGu-7YyCFTDvkE6jcKC9J0",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"destination\": {\n      \"name\": \"workspaces/yanis_sandbox/sources/typewriter_demo/destinations/google-analytics\",\n      \"config\": [\n        {\n          \"name\": \"workspaces/yanis_sandbox/sources/typewriter_demo/destinations/google-analytics/config/trackingId\",\n          \"type\": \"string\",\n          \"value\": {{ga_ua_id}}\n        }\n      ],\n      \"enabled\": false,\n      \"connection_mode\": \"CLOUD\"\n    }\n  }\n"
+						},
+						"url": {
+							"raw": "https://platform.segmentapis.com/v1beta/workspaces/yanis_sandbox/sources/typewriter_demo/destinations/",
+							"protocol": "https",
+							"host": [
+								"platform",
+								"segmentapis",
+								"com"
+							],
+							"path": [
+								"v1beta",
+								"workspaces",
+								"yanis_sandbox",
+								"sources",
+								"typewriter_demo",
+								"destinations",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Configure Braze",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{access_token}}",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"destination\": {\n      \"name\": \"workspaces/{{workspace_slug}}/sources/workshop_source/destinations/appboy\",\n      \"config\": [\n        {\n          \"name\": \"workspaces/{{workspace_slug}}/sources/workshop_source/destinations/appboy/config/datacenter\",\n          \"type\": \"string\",\n          \"value\": \"us03\"\n        },\n\t\t {\n          \"name\": \"workspaces/{{workspace_slug}}/sources/workshop_source/destinations/appboy/config/apiKey\",\n          \"type\": \"string\",\n          \"value\": \"35707c69-bf09-4821-8ae3-a514d5800ac9\"\n        }\n        \n      ],\n      \"enabled\": false\n    }\n  }\n"
+						},
+						"url": {
+							"raw": "https://platform.segmentapis.com/v1beta/workspaces/{{workspace_slug}}/sources/workshop_source/destinations/",
+							"protocol": "https",
+							"host": [
+								"platform",
+								"segmentapis",
+								"com"
+							],
+							"path": [
+								"v1beta",
+								"workspaces",
+								"{{workspace_slug}}",
+								"sources",
+								"workshop_source",
+								"destinations",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Track data",
+			"item": []
+		},
+		{
+			"name": "Send event",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic {{segment_write_key}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userId\": \"api_workshop_user_{{workspace_number}}\",\n    \"event\": \"Event sent {{workspace_number}}\"\n}"
+				},
+				"url": {
+					"raw": "https://api.segment.io/v1/track",
+					"protocol": "https",
+					"host": [
+						"api",
+						"segment",
+						"io"
+					],
+					"path": [
+						"v1",
+						"track"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Identify a user",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic {{segment_write_key}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userId\": \"api_workshop_user_{{workspace_number}}\"\n}"
+				},
+				"url": {
+					"raw": "https://api.segment.io/v1/identify",
+					"protocol": "https",
+					"host": [
+						"api",
+						"segment",
+						"io"
+					],
+					"path": [
+						"v1",
+						"identify"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Record a pageview",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic {{segment_write_key}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userId\": \"api_workshop_user_1\",\n    \"name\": \"home_page\"\n}"
+				},
+				"url": {
+					"raw": "https://api.segment.io/v1/page",
+					"protocol": "https",
+					"host": [
+						"api",
+						"segment",
+						"io"
+					],
+					"path": [
+						"v1",
+						"page"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
