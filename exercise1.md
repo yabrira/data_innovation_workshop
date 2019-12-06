@@ -15,35 +15,25 @@ After you have claimed your workspace, there are a couple of steps you need to f
 username: yanis.b+apidays_workshop_paris@segment.com
 password: <will be on the whiteboard>
 ```
-![](https://cl.ly/82baf85924f6)
+![](misc/img/login.png)
 4. Click the “Log In” button.
 5. Find the workspace name you claimed in the spreadsheet.
 6. Click the tile with the name you claimed.
-![](https://paper-attachments.dropbox.com/s_539A927F5DA788B557CE05EF51E8221F1D7D02D016B6CA298FD5F55304B8CA28_1558298143343_image.png)
+![](misc/img/workspace_list.png)
 7. Click on the Settings gear in the bottom left corner of the screen that appears.
-![](https://paper-attachments.dropbox.com/s_539A927F5DA788B557CE05EF51E8221F1D7D02D016B6CA298FD5F55304B8CA28_1558298296954_image.png)
-8. Change the name of the workspace to something you will remember, so that you can find your workspace more easily in case you have to log back in during or after the workshop.
-9. Add `igor+awsmlworkshop@segment.com` in the Incident Contact section.
-10. Click the “Save Changes” button.
-![](https://paper-attachments.dropbox.com/s_539A927F5DA788B557CE05EF51E8221F1D7D02D016B6CA298FD5F55304B8CA28_1558298453353_image.png)
+![](misc/img/settings.png)
+8. Change the name of the workspace to something you will remember, so that you can find your workspace more easily in case you have to log back in during or after the workshop. 
+9. Click the “Save Changes” button.
+![](misc/img/workspace_name.png)
 
 ## Part 2 - Create Segment Sources
 Segment Sources allow you to collect semantic events as your users interact with your web sites, mobile applications, or server-side applications.  For this workshop, you will set up sources for a web application, an Android application, and iOS mobile application.  We will also create a source that will be used to send recommendations from Personalize to user profiles in Segment.
 Your initial Segment workspace will look like this:
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_539A927F5DA788B557CE05EF51E8221F1D7D02D016B6CA298FD5F55304B8CA28_1551126460468_image.png)
+![](misc/img/workspace_overview.png)
 You will need to add four sources, using the ‘Add Source’ button in the screen shot above.  To set up a source:
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_539A927F5DA788B557CE05EF51E8221F1D7D02D016B6CA298FD5F55304B8CA28_1551126918810_image.png)
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_539A927F5DA788B557CE05EF51E8221F1D7D02D016B6CA298FD5F55304B8CA28_1551126938657_image.png)
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_539A927F5DA788B557CE05EF51E8221F1D7D02D016B6CA298FD5F55304B8CA28_1551126965261_image.png)
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_539A927F5DA788B557CE05EF51E8221F1D7D02D016B6CA298FD5F55304B8CA28_1551127036032_image.png)
+![](misc/img/http.png)
+![](misc/img/connect.png)
+![](misc/img/workshop_name.png)
 Once your source is configured, it will appear in your workspace like this:
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_539A927F5DA788B557CE05EF51E8221F1D7D02D016B6CA298FD5F55304B8CA28_1551127061361_image.png)
-You will need to repeat these steps to configure three more sources.  One for Android, one for iOS, and one for your Personalize events.  
-Name your sources as follows:
-| Source Name | Source Type | Description |
-| ----------- | ----------- | ----------- |
-| website-prod | Javascript | Accepts user events from a web site; created in the example above. |
-| android-prod | Android | Accepts user events from an Android application. |
-| ios-prod | iOS | Accepts user events from an iOS application. |
-| personas-event-source | Python | Accepts events from the Personalize service Lambda you will connect in the last exercise. |
-For the web source, use the Javascript source type, for Android the Android source, for iOS the iOS source, and for the personas-events-source use the Python source type.
+![](misc/img/source_done.png)
+
