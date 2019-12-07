@@ -24,11 +24,11 @@ git clone https://github.com/yabrira/apidays-workshop.git
 If you would like to use cURL or do not have admin persissions to install applications, you can find the raw requests [here](). Please keep in mind that varriables will need to be replaced with your workspace information, that includes access_token, workspace_number & base64 encoded write key. If you are looking for a way to base64 encode, consider [base64encode.org/](https://www.base64encode.org/).
 
 ## [Preparation](preparation.md/) - Claiming your workspace and connecting a source
-The focus of this [exercise](exercise1.md/) is to claim your workspace and to set up an HTTP source within the workspace. You will claim your workspace for yourself and we will walk through the process of configuring Segment to receive data an incoming HTTP request.
+The focus of this [exercise](preparation.md/) is to claim your workspace and to set up an HTTP source within the workspace. You will claim your workspace for yourself and we will walk through the process of configuring Segment to receive data an incoming HTTP request.
 
-## [Exercise 2](exercise2.md/) - Ingesting data via HTTP and verifying your data
-In this [exercise](exercise2.md/) we will pick up where we left off in the prior exercise by submitting a batch request into your HTTP source and verifying the accuracy of the data via our live debugger.
+## [Exercise 1](exercise1.md/) - Ingesting data via HTTP and verifying your data
+In this [exercise](exercise1.md/) we will pick up where we left off in the prior exercise by submitting a batch request into your HTTP source and verifying the accuracy of the data via our live debugger.
 
-## [Exercise 3](exercise3.md/) - Configuring a downstream data consumer programmatically
-In this final [exercise](exercise3.md/) use Segment's APIs to configure Google Analytics and Braze as downstream data consumers. 
+## [Exercise 2](exercise2.md/) - Configuring a downstream data consumer programmatically
+In this final [exercise](exercise2.md/) use Segment's APIs to configure Google Analytics and Braze as downstream data consumers. 
 
