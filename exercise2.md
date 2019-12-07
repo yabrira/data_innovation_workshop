@@ -13,13 +13,15 @@ Requests can be made by various means. In this exercise we propose using Postman
 3. Add your write key to the environment variable.
 ![](misc/img/write_key.png)
 ![](misc/img/write_key_postman.png)
+4. Add your workspace slug to the environment variable.
+![](misc/img/worksapce_slug.png)
+![](misc/img/workspace_slug_postman.png)
 
-### In preparation of [exercise 3](exercise3.md/) we'll also add our access token.
+#### In preparation of [exercise 3](exercise3.md/) we'll also add our access token.
 5. Create your access token in Segment's access management console.
 ![](misc/img/access_token.png)
 6. Add your write key to the environment variable.
 ![](misc/img/access_token_postman.png)
-
 
 
 ### Prepare cURL requests

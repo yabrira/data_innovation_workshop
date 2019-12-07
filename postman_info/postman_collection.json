@@ -131,7 +131,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"userId\": \"api_workshop_user_{{workspace_number}}\",\n    \"event\": \"Event sent {{workspace_number}}\"\n}"
+					"raw": "{\n    \"userId\": \"api_workshop_user\",\n    \"event\": \"Event sent\"\n}"
 				},
 				"url": {
 					"raw": "https://api.segment.io/v1/track",
@@ -172,7 +172,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"userId\": \"api_workshop_user_{{workspace_number}}\"\n}"
+					"raw": "{\n    \"userId\": \"api_workshop_user\"\n}"
 				},
 				"url": {
 					"raw": "https://api.segment.io/v1/identify",
