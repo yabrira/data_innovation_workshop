@@ -1,5 +1,5 @@
 # Ingesting data via HTTP and verifying your data
-Segment provides various collection technologies icluding a JavsScript library, mobile SDKs and server-side libraries. During this exercise we will demonstrate collection/ingestion mechanisms as by means of POST requests to our HTTP API.
+Segment provides various collection technologies including a JavsScript library, mobile SDKs and server-side libraries. During this exercise we will demonstrate collection/ingestion mechanisms as by means of POST requests to our HTTP API.
 
 ## Part 1 - Set up Your Request environment
 Requests can be made by various means. In this exercise we propose using Postman or send the requests via cURL. Feel free to use your mechanism of choice, keeping in mind that the request code might need slight adjustments.
