@@ -8,7 +8,9 @@ Requests can be made by various means. In this exercise we propose using Postman
 1. Download [Postman](https://www.getpostman.com/downloads/) 
 2. Clone this repo for the Postman [environment](postman_info/postman_environment.json) & [request collection](postman_info/postman_collection.json).
 3. Import the Postman environment by drag-and-dropping the JSON file.
-![](misc/img/import.png)
+![](misc/img/import.png) 
+4. Enable the environment.
+![](misc/img/select_env.png) 
 4. Add your write key to the environment variable.
 ![](misc/img/write_key.png)
 ![](misc/img/write_key_postman.png)
