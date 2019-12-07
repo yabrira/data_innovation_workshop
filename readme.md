@@ -17,7 +17,7 @@ Before following the exercises below, please download [Postman](https://www.getp
 git clone https://github.com/yabrira/apidays-workshop.git
 ```
 
-If you would like to use cURL or do not have admin persissions to install applications, you can find the raw requests [here]().
+If you would like to use cURL or do not have admin persissions to install applications, you can find the raw requests [here](). Please keep in mind that varriables will need to be replaced with your workspace information, that includes access_token, workspace_number & base64 encoded write key. If you are looking for a way to base64 encode, consider [base64encode.org/](https://www.base64encode.org/).
 
 ## [Exercise 1](exercise1.md/) - Claiming your workspace and connecting a source
 The focus of this [exercise](exercise1.md/) is to claim your workspace and to set up an HTTP source within the workspace. You will claim your workspace for yourself and we will walk through the process of configuring Segment to receive data an incoming HTTP request.
