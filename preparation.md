@@ -43,3 +43,5 @@ Please enter "workshop_source" as the source name. It'll be used as part of the 
 Once your source is configured, it will appear in your workspace like this:
 ![](misc/img/source_done.png)
 
+
+# [Onwards to exercise 2](exercise2.md/)

@@ -63,3 +63,5 @@ Additionally to these, the collection includes a [batch call](https://segment.co
 ## Success!
 If your debugger looks something like this, then you have successfully ingested your first customer data points.
 ![](misc/img/debugger_success.png)
+
+# [Onwards to exercise 3](exercise3.md/)
