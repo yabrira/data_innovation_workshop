@@ -48,6 +48,8 @@ The request collection includes four different request types. At it's core Segme
 - [Track](https://segment.com/docs/connections/spec/track/): what are they doing?
 - [Page](https://segment.com/docs/connections/spec/page/): what web page are they on?
 
+![](misc/img/tracking_api.png)
+
 Additionally to these, the collection includes a [batch call](https://segment.com/docs/connections/sources/catalog/libraries/server/http-api/#batch), that includes a mixture of identify, track & page calls. 
 
 1. Select one of the events listed in the event collection and send the request. Feel free to send these requests as you see fit. If you'd like to adjust the payload please refer to our [docs](https://segment.com/docs/connections/sources/catalog/libraries/server/http-api/).
