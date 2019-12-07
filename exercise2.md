@@ -22,4 +22,4 @@ If your destination overview looks something like this, then you have successful
 
 # #fromproducttoecosystems
 
-# [Let's wrap this up](https://suzannemcvey.typeform.com/to/gZOqJ0)
+# [Let's wrap things up](https://docs.google.com/presentation/d/1CTK66nBmpJUCjdVKm0eCWEu43pgg7Yoe8rA-bblzVFM/edit?ts=5dd22487#slide=id.g6c25ad3bed_0_17)

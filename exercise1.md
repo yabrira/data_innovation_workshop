@@ -25,6 +25,8 @@ __In preparation of [exercise 2](exercise2.md/) we'll also add our access token.
 6. Import the Postman request collection by drag-and-dropping the JSON file.
 ![](misc/img/import.png)
 
+Setup Tip: You can also copy paste the collection and environment via the "Paste Raw Text" tab in Postman's import window.
+
 ### Prepare cURL requests
 1. Find your workshop source's write key.
 ![](misc/img/write_key.png)
