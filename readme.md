@@ -27,6 +27,3 @@ In this [exercise](exercise2.md/) we will pick up where we left off in the prior
 
 ## [Exercise 3](exercise3.md/) - Configuring a downstream data consumer programmatically
 In this final [exercise](exercise3.md/) use Segment's APIs to configure Google Analytics and Braze as downstream data consumers. 
-
-## [Exercise 4 - Optional](exercise4.md/) - Providing a tracking plan to your API service environment
-In this [exercise](exercise4.md/) we will add a data governance taxonomy to our event pipeline.

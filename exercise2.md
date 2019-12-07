@@ -23,7 +23,6 @@ __In preparation of [exercise 3](exercise3.md/) we'll also add our access token.
 6. Import the Postman request collection by drag-and-dropping the JSON file.
 ![](misc/img/import.png)
 
-
 ### Prepare cURL requests
 1. Find your workshop source's write key.
 ![](misc/img/write_key.png)
@@ -34,9 +33,9 @@ __In preparation of [exercise 3](exercise3.md/) we'll also add our access token.
 5. In [ingest_data.json](curl_info/ingest_data.json) replace instances of {{workspace_slug}} with the workspace slug of your claimed workpace.
 6. In [configure_destinations.md](curl_info/configure_destinations.md) replace instances of {{workspace_slug}} with the workspace slug of your claimed workpace.
 __In preparation of [exercise 3](exercise3.md/) we'll also configure our access token.__
-7. In [configure_destinations.md](curl_info/configure_destinations.md) replace instances of {{access_token}} with your base64 encoded value.
-8. Find your workspace slug.
+7. Find your access token.
 ![](misc/img/access_token.png)
+8. In [configure_destinations.md](curl_info/configure_destinations.md) replace instances of {{access_token}} with your base64 encoded value.
 
 ## Part 2 - Ingest data
 
@@ -47,10 +46,18 @@ The request collection includes four different request types. At it's core Segme
 - [Track](https://segment.com/docs/connections/spec/track/): what are they doing?
 - [Page](https://segment.com/docs/connections/spec/page/): what web page are they on?
 
-Additionally to these, the collection includes a [batch call](https://segment.com/docs/connections/sources/catalog/libraries/server/http-api/#batch), that includes a mixture of identify, track & page calls. Feel free to send these requests as you see fit. If you'd like to adjsut the payload please refer to our [docs](https://segment.com/docs/connections/sources/catalog/libraries/server/http-api/).
+Additionally to these, the collection includes a [batch call](https://segment.com/docs/connections/sources/catalog/libraries/server/http-api/#batch), that includes a mixture of identify, track & page calls. 
 
-
-1. Select one of the events listed in the event collection and send the request. You can
+1. Select one of the events listed in the event collection and send the request. Feel free to send these requests as you see fit. If you'd like to adjust the payload please refer to our [docs](https://segment.com/docs/connections/sources/catalog/libraries/server/http-api/).
+2. Navigate to your source's debugger to see data flowing through in real-time.
+![](misc/img/debugger.png)
 
 ### Using cURL
+1. Find your configured data ingestion event in [ingest_data.json](curl_info/ingest_data.json).
+2. Copy paste them into your command line and execute the code.
+3. Navigate to your source's debugger to see data flowing through in real-time.
+![](misc/img/debugger.png)
 
+## Success!
+If your debugger looks something like this, then you have successfully ingested your first customer data points.
+![](misc/img/debugger_success.png)
