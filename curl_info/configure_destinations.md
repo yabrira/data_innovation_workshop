@@ -8,15 +8,15 @@ Requirements:
 ## Google Analytics
 ```
 curl -X POST \
-  https://platform.segmentapis.com/v1beta/workspaces/{{insert workspace slug here}}/sources/workshop_source/destinations/ \
-  -H 'Authorization: Bearer {{insert access token here}}' \
+  https://platform.segmentapis.com/v1beta/workspaces/{{workspace_slug}}/sources/workshop_source/destinations/ \
+  -H 'Authorization: Bearer {{access_token}}' \
   -H 'Content-Type: application/json' \
   -d '{
     "destination": {
-      "name": "workspaces/{{insert workspace slug here}}/sources/workshop_source/destinations/google-analytics",
+      "name": "workspaces/{{workspace_slug}}/sources/workshop_source/destinations/google-analytics",
       "config": [
         {
-          "name": "workspaces/{{insert workspace slug here}}/sources/workshop_source/destinations/google-analytics/config/trackingId",
+          "name": "workspaces/{{workspace_slug}}/sources/workshop_source/destinations/google-analytics/config/trackingId",
           "type": "string",
           "value": UA-153856743-2
         }
@@ -33,7 +33,7 @@ curl -X POST \
 curl -X POST \
   'https://platform.segmentapis.com/v1beta/workspaces/{{workspace_slug}}/sources/workshop_source/destinations/' \
   -H 'Accept: */*' \
-  -H 'Authorization: Bearer {{insert access token here}}' \
+  -H 'Authorization: Bearer {{access_token}}' \
   -H 'Content-Type: application/json' \
   -H 'Host: platform.segmentapis.com' \
   -d '{
