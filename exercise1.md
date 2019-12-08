@@ -8,7 +8,7 @@ Requests can be made by various means. In this exercise we propose using Postman
 1. Download [Postman](https://www.getpostman.com/downloads/) 
 2. Clone this repo for the Postman [environment](postman_info/postman_environment.json) & [request collection](postman_info/postman_collection.json).
 3. Import the Postman environment by drag-and-dropping the JSON file.
-![](misc/img/import.png) 
+![](misc/img/import_postman.png) 
 4. Enable the environment.
 ![](misc/img/select_env.png) 
 4. Add your write key to the environment variable.
@@ -23,9 +23,9 @@ __In preparation of [exercise 2](exercise2.md/) we'll also add our access token.
 7. Add your access token to the environment variable.
 ![](misc/img/access_token_postman.png)
 6. Import the Postman request collection by drag-and-dropping the JSON file.
-![](misc/img/import.png)
+![](misc/img/import_postman.png)
 
-Setup Tip: You can also copy paste the collection and environment via the "Paste Raw Text" tab in Postman's import window.
+> Setup Tip: You can also copy paste the collection's and environment's raw text from [environment](postman_info/postman_environment.json) & [request collection](postman_info/postman_collection.json) and import it via the "Paste Raw Text" tab in Postman's import window.
 
 ### Prepare cURL requests
 1. Find your workshop source's write key.
