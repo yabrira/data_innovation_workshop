@@ -1,4 +1,4 @@
-![](misc/img/login.png)
+![](misc/img/home_slide.svg)
 
 # Data APIs as a service: Focusing on your core business
 
