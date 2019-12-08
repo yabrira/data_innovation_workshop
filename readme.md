@@ -1,3 +1,5 @@
+![](misc/img/login.png)
+
 # Data APIs as a service: Focusing on your core business
 
 Many collection APIs exist out ther in the wild. Some focus on real-time and others queue messages and release them in a cron-job style fashion. The power of APIs is almost endless, but the ease of use comes with one drawback: __Every tool has an API!__ The overall expansion of technology and software that consumes Customer Data in one way or another has put a tremendous strain on developers and marketers, where the need to instrument n amount of APIs with all their nuances and intracecies is causing bottle-necks and technical debt. Questions like "Where are the docs for this?" or statements such as "Let's check what StackOverflow says about this." are becoming more present and at this point a developer might need to "know" 5-25 different APIs besides the work they are already doing. Segment aims to overcome this by providing and API first design to the customer data problem and turn your collection of APIs into a service, ultimately allowing you to focus on your core business.
