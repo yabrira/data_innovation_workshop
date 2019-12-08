@@ -43,4 +43,4 @@ Once your source is configured, it will appear in your workspace like this:
 ![](misc/img/source_done.png)  
 
 
-# [Onwards to exercise 1](exercise1.md/)
+## [>>> onwards to exercise 1](exercise1.md/)
