@@ -1,7 +1,7 @@
 # Claiming your workspace and connecting a source
-For the live workshop exercises, Segment has pre-provisioned workspaces for the workshop.  If you are doing this workshop after the live event, you will need a new Business Tier workspace with Personas enabled from Segment, or you will need to use your existing Segment workspace. If you do not have one, please contact your Segment sales representative at https://segment.com/contact/sales/.
+For the live workshop exercises, Segment has pre-provisioned workspaces for the workshop.  If you are doing this workshop after the live event, you will need a new workspace. If you do not have one, please contact your Segment sales representative at https://segment.com/contact/sales/.
 To get your workshop workspace:
-1. Open the Google Sheet at [Segment Workspaces](https://app.segment.com)
+1. Open the Google Sheet at [Segment Workspaces](https://docs.google.com/spreadsheets/d/1Pltzg8kIOsLc4vaey1YtPnwDAPNduBnwwfswjxsL9m0/edit?ts=5dea759c#gid=0)
 2. Find an unclaimed workspace
 ![](misc/img/sheet.png)
 3. Claim your shiny new Segment workspace by putting your name in the appropriate fields, please.
@@ -13,12 +13,12 @@ After you have claimed your workspace, there are a couple of steps you need to f
 3. Log in as:
 ```
 username: yanis.b+apidays_workshop_paris@segment.com
-password: <will be on the whiteboard>
+password: <available at the workshop>
 ```
 ![](misc/img/login.png)
-4. Click the “Log In” button.
-5. Find the workspace name you claimed in the spreadsheet.
-6. Click the tile with the name you claimed.
+4. Click the “Log In” button.  
+5. Find the workspace name you claimed in the spreadsheet.  
+6. Click the tile with the name you claimed.  
 ![](misc/img/workspace_list.png)
 7. Click on the Settings gear in the bottom left corner of the screen that appears.
 ![](misc/img/settings.png)
