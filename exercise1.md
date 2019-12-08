@@ -8,7 +8,7 @@ Requests can be made by various means. In this exercise we propose using Postman
 1. Download [Postman](https://www.getpostman.com/downloads/) 
 2. Clone this repo for the Postman [environment](postman_info/postman_environment.json) & [request collection](postman_info/postman_collection.json).
 
-3. Import the Postman environment by drag-and-dropping the JSON file. The environment includes variables that we will use in exercise 2, and it will hold your sepcific write_key
+3. Import the Postman environment by drag-and-dropping the JSON file. The environment includes variables that we will use in exercise 2, and it will hold your sepcific w
 ![](misc/img/import_postman.png) 
 
 4. Enable the environment.
@@ -19,7 +19,7 @@ Requests can be made by various means. In this exercise we propose using Postman
 ![](misc/img/write_key_postman.png)
 
 5. Add your workspace slug to the environment variable.
-![](misc/img/worksapce_slug.png)
+![](misc/img/workspace_slug.png)
 ![](misc/img/workspace_slug_postman.png)
 
 __In preparation of [exercise 2](exercise2.md/) we'll also add our access token.__
@@ -47,7 +47,7 @@ __In preparation of [exercise 2](exercise2.md/) we'll also add our access token.
 3. In [ingest_data.md](curl_info/ingest_data.md) replace instances of {{write_key}} with your base64 encoded value.
 
 4. Find your workspace slug.
-![](misc/img/worksapce_slug.png)
+![](misc/img/workspace_slug.png)
 
 5. In [ingest_data.md](curl_info/ingest_data.md) replace instances of {{workspace_slug}} with the workspace slug of your claimed workpace.
 
