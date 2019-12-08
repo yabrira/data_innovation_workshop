@@ -1,5 +1,5 @@
 # Claiming your workspace and connecting a source
-For the live workshop exercises, Segment has pre-provisioned workspaces for the workshop.  If you are doing this workshop after the live event, you will need a new workspace. If you do not have one, please contact your Segment sales representative at https://segment.com/contact/sales/.
+For the live workshop exercises, Segment has pre-provisioned workspaces for the workshop.  If you are doing this workshop after the live event, you will need a new workspace. If you do not have one, please contact your Segment sales representative at https://segment.com/contact/sales/.  
 To get your workshop workspace:
 1. Open the Google Sheet at [Segment Workspaces](https://docs.google.com/spreadsheets/d/1Pltzg8kIOsLc4vaey1YtPnwDAPNduBnwwfswjxsL9m0/edit?ts=5dea759c#gid=0)
 2. Find an unclaimed workspace
