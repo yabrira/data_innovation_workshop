@@ -31,10 +31,10 @@ Setup Tip: You can also copy paste the collection and environment via the "Paste
 1. Find your workshop source's write key.
 ![](misc/img/write_key.png)
 2. Base64encode the write key. You can do so at [Base64encode.org](https://www.base64encode.org/).
-3. In [ingest_data.json](curl_info/ingest_data.json) replace instances of {{write_key}} with your base64 encoded value.
+3. In [ingest_data.md](curl_info/ingest_data.md) replace instances of {{write_key}} with your base64 encoded value.
 4. Find your workspace slug.
 ![](misc/img/worksapce_slug.png)
-5. In [ingest_data.json](curl_info/ingest_data.json) replace instances of {{workspace_slug}} with the workspace slug of your claimed workpace.
+5. In [ingest_data.md](curl_info/ingest_data.md) replace instances of {{workspace_slug}} with the workspace slug of your claimed workpace.
 6. In [configure_destinations.md](curl_info/configure_destinations.md) replace instances of {{workspace_slug}} with the workspace slug of your claimed workpace.
 __In preparation of [exercise 2](exercise2.md/) we'll also configure our access token.__
 7. Find your access token.
@@ -43,8 +43,7 @@ __In preparation of [exercise 2](exercise2.md/) we'll also configure our access 
 
 ## Part 2 - Ingest data
 
-### Using Postman
-The request collection includes four different request types. At it's core Segment tries to answer the following questions with three of the four calls:
+The request collection as well as [ingest_data.md](curl_info/ingest_data.md) includes four different request types. At it's core Segment tries to answer the following questions with three of the four calls:
 
 - [Identify](https://segment.com/docs/connections/spec/identify/): who is the customer?
 - [Track](https://segment.com/docs/connections/spec/track/): what are they doing?
@@ -52,14 +51,16 @@ The request collection includes four different request types. At it's core Segme
 
 ![](misc/img/tracking_api.png)
 
-Additionally to these, the collection includes a [batch call](https://segment.com/docs/connections/sources/catalog/libraries/server/http-api/#batch), that includes a mixture of identify, track & page calls. 
+Additionally to these, the collection includes a [batch call](https://segment.com/docs/connections/sources/catalog/libraries/server/http-api/#batch). The batch call identifies two users and records various events and page calls against their identities.
 
+
+### Using Postman
 1. Select one of the events listed in the event collection and send the request. Feel free to send these requests as you see fit. If you'd like to adjust the payload please refer to our [docs](https://segment.com/docs/connections/sources/catalog/libraries/server/http-api/).
 2. Navigate to your source's debugger to see data flowing through in real-time.
 ![](misc/img/debugger.png)
 
 ### Using cURL
-1. Find your configured data ingestion event in [ingest_data.json](curl_info/ingest_data.json).
+1. Find your configured data ingestion event in [ingest_data.md](curl_info/ingest_data.md).
 2. Copy paste them into your command line and execute the code.
 3. Navigate to your source's debugger to see data flowing through in real-time.
 ![](misc/img/debugger.png)
