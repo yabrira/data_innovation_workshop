@@ -51,8 +51,7 @@ curl -X POST \
   https://api.segment.io/v1/batch \
   -H 'Accept: application/json' \
   -H 'Content-Type: application/json' \
-  -H 'Postman-Token: 7ae86691-8898-4b54-902e-711fbe720b4c' \
-  -H 'cache-control: no-cache' \
+  -H 'Authorization: Basic {{segment_write_key}}' \
   -d '{
     "batch": [{
             "type": "identify",
