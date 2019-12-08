@@ -40,7 +40,9 @@ curl -X POST \
   -H 'Content-Type: application/json' \
   -d '{
     "userId": "api_workshop_user",
-    "name": "home_page"
+    "properties":{
+        "page_name": "Home"
+    }
 }'
 ```
 
@@ -50,10 +52,11 @@ curl -X POST \
 curl -X POST \
   https://api.segment.io/v1/batch \
   -H 'Accept: application/json' \
-  -H 'Content-Type: application/json' \
   -H 'Authorization: Basic {{segment_write_key}}' \
+  -H 'Content-Type: application/json' \
   -d '{
-    "batch": [{
+    "batch": [
+        {
             "type": "identify",
             "userId": "api_master"
         },
@@ -62,7 +65,7 @@ curl -X POST \
             "userId": "api_student"
         },
         {
-            "type": "track",    
+            "type": "track",
             "userId": "api_master",
             "event": "APIs Mastered",
             "properties": {
@@ -129,31 +132,30 @@ curl -X POST \
             "type": "page",
             "userId": "api_student",
             "properties": {
-                "name": "Home"
+                "page_name": "Home"
             }
-        }, 
+        },
         {
             "type": "page",
             "userId": "api_master",
             "properties": {
-                "name": "Home"
+                "page_name": "Home"
             }
         },
         {
             "type": "page",
             "userId": "api_student",
             "properties": {
-                "name": "Paris"
+                "page_name": "Paris"
             }
-        }, 
+        },
         {
             "type": "page",
             "userId": "api_master",
             "properties": {
-                "name": "Paris"
+                "page_name": "Paris"
             }
-        }  
-
+        }
     ]
-}
+}'
 ```

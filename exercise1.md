@@ -7,39 +7,58 @@ Requests can be made by various means. In this exercise we propose using Postman
 ### Configuring Postman
 1. Download [Postman](https://www.getpostman.com/downloads/) 
 2. Clone this repo for the Postman [environment](postman_info/postman_environment.json) & [request collection](postman_info/postman_collection.json).
-3. Import the Postman environment by drag-and-dropping the JSON file.
+
+3. Import the Postman environment by drag-and-dropping the JSON file. The environment includes variables that we will use in exercise 2, and it will hold your sepcific write_key
 ![](misc/img/import_postman.png) 
+
 4. Enable the environment.
 ![](misc/img/select_env.png) 
+
 4. Add your write key to the environment variable.
 ![](misc/img/write_key.png)
 ![](misc/img/write_key_postman.png)
+
 5. Add your workspace slug to the environment variable.
 ![](misc/img/worksapce_slug.png)
 ![](misc/img/workspace_slug_postman.png)
+
 __In preparation of [exercise 2](exercise2.md/) we'll also add our access token.__
 6. Create your access token in Segment's access management console.
 ![](misc/img/access_token.png)
+
 7. Add your access token to the environment variable.
 ![](misc/img/access_token_postman.png)
+
 6. Import the Postman request collection by drag-and-dropping the JSON file.
 ![](misc/img/import_postman.png)
 
+
+
 > Setup Tip: You can also copy paste the collection's and environment's raw text from [environment](postman_info/postman_environment.json) & [request collection](postman_info/postman_collection.json) and import it via the "Paste Raw Text" tab in Postman's import window.
+
+
 
 ### Prepare cURL requests
 1. Find your workshop source's write key.
 ![](misc/img/write_key.png)
+
 2. Base64encode the write key. You can do so at [Base64encode.org](https://www.base64encode.org/).
+
 3. In [ingest_data.md](curl_info/ingest_data.md) replace instances of {{write_key}} with your base64 encoded value.
+
 4. Find your workspace slug.
 ![](misc/img/worksapce_slug.png)
+
 5. In [ingest_data.md](curl_info/ingest_data.md) replace instances of {{workspace_slug}} with the workspace slug of your claimed workpace.
+
 6. In [configure_destinations.md](curl_info/configure_destinations.md) replace instances of {{workspace_slug}} with the workspace slug of your claimed workpace.
+
 __In preparation of [exercise 2](exercise2.md/) we'll also configure our access token.__
 7. Find your access token.
 ![](misc/img/access_token.png)
+
 8. In [configure_destinations.md](curl_info/configure_destinations.md) replace instances of {{access_token}} with your base64 encoded value.
+
 
 ## Part 2 - Ingest data
 
