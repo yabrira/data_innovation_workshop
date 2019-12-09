@@ -44,7 +44,7 @@ __In preparation of [exercise 2](exercise2.md/) we'll also add our access token.
 
 2. Base64encode the write key. You can do so at [Base64encode.org](https://www.base64encode.org/).
 
-3. In [ingest_data.md](curl_info/ingest_data.md) replace instances of {{write_key}} with your base64 encoded value.
+3. In [ingest_data.md](curl_info/ingest_data.md) replace instances of {{segment_write_key}} with your base64 encoded value.
 
 4. Find your workspace slug.
 ![](misc/img/workspace_slug.png)
@@ -54,10 +54,11 @@ __In preparation of [exercise 2](exercise2.md/) we'll also add our access token.
 6. In [configure_destinations.md](curl_info/configure_destinations.md) replace instances of {{workspace_slug}} with the workspace slug of your claimed workpace.
 
 __In preparation of [exercise 2](exercise2.md/) we'll also configure our access token.__
+
 7. Find your access token.
 ![](misc/img/access_token.png)
 
-8. In [configure_destinations.md](curl_info/configure_destinations.md) replace instances of {{access_token}} with your base64 encoded value.
+8. In [configure_destinations.md](curl_info/configure_destinations.md) replace instances of {{access_token}} individual access token.
 
 
 ## Part 2 - Ingest data
@@ -88,4 +89,4 @@ Additionally to these, the collection includes a [batch call](https://segment.co
 If your debugger looks something like this, then you have successfully ingested your first customer data points.
 ![](misc/img/debugger_success.png)
 
-# [Onwards to exercise 2](exercise2.md/)
+## [>>> onwards to exercise 2](exercise2.md/)
