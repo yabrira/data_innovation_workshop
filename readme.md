@@ -34,3 +34,4 @@ In this [exercise](exercise1.md/) we will pick up where we left off in the prior
 ## [Exercise 2](exercise2.md/) - Configuring a downstream data consumer programmatically
 In this final [exercise](exercise2.md/) we'll use Segment's APIs to configure Google Analytics and Braze as downstream data consumers. 
 
+P.S. If you are doing this workshop outside of APIdays, please set up your own workspace and follow the steps from [Preparation](preparation.md/) Part 2.
