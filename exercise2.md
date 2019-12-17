@@ -11,7 +11,7 @@ Now that we have a decoupled data collection the next step to make real use of S
 3. Select the "Configure Braze" request & send it.
 
 ## Connecting destinations with cURL
-1. Find [configure_destinations.md](curl_info/onfigure_destinations.md/) in the curl_info folde
+1. Find [configure_destinations.md](curl_info/configure_destinations.md/) in the curl_info folde
 2. Copy the "Configure Google Analytics" request from [configure_destinations.md](curl_info/configure_destinations.md/).
 3. Paste the request into your command line and execute the cURL request.
 4. Copy step 2. & 3. for the "Configure Braze" request.
