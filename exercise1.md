@@ -2,34 +2,33 @@
 Segment provides various collection technologies including a JavsScript library, mobile SDKs and server-side libraries. During this exercise we will demonstrate collection/ingestion mechanisms as by means of POST requests to our HTTP API.
 
 ## Part 1 - Set up Your Request environment
-Requests can be made by various means. In this exercise we propose using Postman or send the requests via cURL. Feel free to use your mechanism of choice, keeping in mind that the request code might need slight adjustments.
+Requests can be made by various means. In this exercise we propose using Postman or sendind the requests via cURL. Feel free to use your mechanism of choice, keeping in mind that the request code might need slight adjustments.
 
 ### Configuring Postman
 1. Download [Postman](https://www.getpostman.com/downloads/) 
-2. Clone this repo for the Postman [environment](postman_info/postman_environment.json) & [request collection](postman_info/postman_collection.json).
+2. Clone this repo for Postman [environment](postman_info/postman_environment.json) & [request collection](postman_info/postman_collection.json).
 
-3. Import the Postman environment by drag-and-dropping the JSON file. The environment includes variables that we will use in exercise 2, and it will hold your sepcific w
+3. Import the Postman environment by drag-and-dropping the JSON file. The environment includes variables that we will use in exercise 2, and it will hold your sepcific writeKey 
 ![](misc/img/import_postman.png) 
 
 4. Enable the environment.
 ![](misc/img/select_env.png) 
 
-4. Add your write key to the environment variable.
+5. Add your write key to the environment variable.
 ![](misc/img/write_key.png)
 ![](misc/img/write_key_postman.png)
 
-5. Add your workspace slug to the environment variable.
+6. Add your workspace slug to the environment variable.
 ![](misc/img/workspace_slug.png)
 ![](misc/img/workspace_slug_postman.png)
 
-__In preparation of [exercise 2](exercise2.md/) we'll also add our access token.__
-6. Create your access token in Segment's access management console.
+7. Create your access token in Segment's access management console.
 ![](misc/img/access_token.png)
 
-7. Add your access token to the environment variable.
+8. Add your access token to the environment variable.
 ![](misc/img/access_token_postman.png)
 
-6. Import the Postman request collection by drag-and-dropping the JSON file.
+9. Import the Postman request collection by drag-and-dropping the JSON file.
 ![](misc/img/import_postman.png)
 
 
@@ -53,15 +52,13 @@ __In preparation of [exercise 2](exercise2.md/) we'll also add our access token.
 
 6. In [configure_destinations.md](curl_info/configure_destinations.md) replace instances of {{workspace_slug}} with the workspace slug of your claimed workpace.
 
-__In preparation of [exercise 2](exercise2.md/) we'll also configure our access token.__
-
 7. Find your access token.
 ![](misc/img/access_token.png)
 
 8. In [configure_destinations.md](curl_info/configure_destinations.md) replace instances of {{access_token}} individual access token.
 
 
-## Part 2 - Ingest data
+## Part 2 - Ingesting data
 
 The request collection as well as [ingest_data.md](curl_info/ingest_data.md) includes four different request types. At it's core Segment tries to answer the following questions with three of the four calls:
 

@@ -1,9 +1,11 @@
-* If you are following this workshop outside of the live webinar and do not have a Segment workspace feel free to create it [here](https://segment.com/signup)!
+# Preparation
+
+### *If you are following this workshop outside of the live webinar and do not have a Segment workspace feel free to create it [here](https://segment.com/signup)!*
 
 
 ## Part 1 - Set up Your Segment Workspace
 
-* If you have already created a workspace please bear with us until part 2.
+*If you have already created a workspace please bear with us until Part 2.*
 
 Please visit https://segment.com/signup and follow the instructions in order to create a new workspace. 
 
