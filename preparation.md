@@ -1,30 +1,12 @@
-# Claiming your workspace and connecting a source
-For the live workshop exercises, Segment has pre-provisioned workspaces for the workshop.  If you are doing this workshop after the live event, you will need a new workspace. If you do not have one, please contact your Segment sales representative at https://segment.com/contact/sales/.  
-To get your workshop workspace:
-1. Open the Google Sheet at [Segment Workspaces](https://docs.google.com/spreadsheets/d/17FvUoABdw2bA_cRhEqaJ6j3P3VoCm4pIfq7RfvScvRc/edit#gid=0)
-2. Find an unclaimed workspace
-![](misc/img/sheet.png)  
-3. Claim your shiny new Segment workspace by putting your name in the appropriate fields, please.
+* If you are following this workshop outside of the live webinar and do not have a Segment workspace feel free to create it [here](https://segment.com/signup)!
+
 
 ## Part 1 - Set up Your Segment Workspace
-After you have claimed your workspace, there are a couple of steps you need to follow to get it ready to start the workshop.
-1. Go to [https://app.segment.com](https://app.segment.com/).
-2. Make sure you select the “Password” login radio button.
-3. Log in as:
-```
-username: yanis.b+apidays_workshop_paris@segment.com
-password: <available at the workshop>
-```
-![](misc/img/login.png)  
-4. Click the “Log In” button.  
-5. Find the workspace name you claimed in the spreadsheet.  
-6. Click the tile with the name you claimed.  
-![](misc/img/workspace_list.png)  
-7. Click on the Settings gear in the bottom left corner of the screen that appears.
-![](misc/img/settings.png)  
-8. Change the name of the workspace to something you will remember, so that you can find your workspace more easily in case you have to log back in during or after the workshop.   
-9. Click the “Save Changes” button.
-![](misc/img/workspace_name.png)  
+
+* If you have already created a workspace please bear with us until part 2.
+
+Please visit https://segment.com/signup and follow the instructions in order to create a new workspace. 
+
 
 ## Part 2 - Create Segment Source
 Segment Sources allow you to collect semantic events as your users interact with your web sites, mobile applications, or server-side applications. For this workshop, you will set up an HTTP source!  
