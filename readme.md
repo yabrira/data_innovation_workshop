@@ -19,7 +19,9 @@ Key takeaways include:
 Following along will require the following:
 
 - A Segment workspace 
+- A Google Analytics account
 - The ability to make HTTP requests
+
 
 ## [Preparation](preparation.md/) - Creating your workspace and connecting a source
 The focus of this [exercise](preparation.md/) is to prepare your workspace for exercise 1 & 2. You will claim your workspace for yourself and we will walk through the process of configuring Segment to receive data via an incoming HTTP request.

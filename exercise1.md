@@ -1,14 +1,16 @@
 # Ingesting data via HTTP and verifying your data
-Segment provides various collection technologies including a JavsScript library, mobile SDKs and server-side libraries. During this exercise we will demonstrate collection/ingestion mechanisms as by means of POST requests to our HTTP API.
+Segment provides various collection technologies including a JavsScript library, mobile SDKs and server-side libraries. During this exercise we will demonstrate collection/ingestion mechanisms as by means of POST requests to our [HTTP API](https://segment.com/docs/connections/sources/catalog/libraries/server/http-api/).
 
 ## Part 1 - Set up Your Request environment
 Requests can be made by various means. In this exercise we propose using Postman or sendind the requests via cURL. Feel free to use your mechanism of choice, keeping in mind that the request code might need slight adjustments.
 
 ### Configuring Postman
 1. Download [Postman](https://www.getpostman.com/downloads/) 
+
 2. Clone this repo for Postman [environment](postman_info/postman_environment.json) & [request collection](postman_info/postman_collection.json).
 
-3. Import the Postman environment by drag-and-dropping the JSON file. The environment includes variables that we will use in exercise 2, and it will hold your sepcific writeKey 
+3. Import the Postman environment by drag-and-dropping the JSON file.
+
 ![](misc/img/import_postman.png) 
 
 4. Enable the environment.
@@ -33,7 +35,13 @@ Requests can be made by various means. In this exercise we propose using Postman
 
 
 
+
+
+
 > Setup Tip: You can also copy paste the collection's and environment's raw text from [environment](postman_info/postman_environment.json) & [request collection](postman_info/postman_collection.json) and import it via the "Paste Raw Text" tab in Postman's import window.
+
+
+
 
 
 

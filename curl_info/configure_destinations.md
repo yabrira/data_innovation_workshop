@@ -27,33 +27,3 @@ curl -X POST \
   }
 '
 ```
-
-## Braze
-```
-curl -X POST \
-  'https://platform.segmentapis.com/v1beta/workspaces/{{workspace_slug}}/sources/workshop_source/destinations/' \
-  -H 'Accept: */*' \
-  -H 'Authorization: Bearer {{access_token}}' \
-  -H 'Content-Type: application/json' \
-  -H 'Host: platform.segmentapis.com' \
-  -d '{
-    "destination": {
-      "name": "workspaces/{{workspace_slug}}/sources/workshop_source/destinations/appboy",
-      "config": [
-        {
-          "name": "workspaces/{{workspace_slug}}/sources/workshop_source/destinations/appboy/config/datacenter",
-          "type": "string",
-          "value": "us03"
-        },
-		 {
-          "name": "workspaces/{{workspace_slug}}/sources/workshop_source/destinations/appboy/config/apiKey",
-          "type": "string",
-          "value": "35707c69-bf09-4821-8ae3-a514d5800ac9"
-        }
-        
-      ],
-      "enabled": true
-    }
-  }
-'
-```
