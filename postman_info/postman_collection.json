@@ -71,7 +71,7 @@
 								"exec": [
 									"let wk = btoa(pm.environment.get(\"segment_write_key\"));",
 									"",
-									"let bw = pm.local.set(\"base64_write_key\", wk);"
+									"let bw = pm.variables.set(\"base64_write_key\", wk);"
 								],
 								"type": "text/javascript"
 							}
