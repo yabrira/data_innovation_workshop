@@ -1,4 +1,4 @@
-![](misc/img/home_slide.svg)
+![](misc/img/home_slide.jpg)
 
 # Workshop: Getting started with Segment programmatically
 

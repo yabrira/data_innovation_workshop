@@ -10,7 +10,6 @@ Requests can be made by various means. In this exercise we propose using Postman
 2. Clone this repo for Postman [environment](postman_info/postman_environment.json) & [request collection](postman_info/postman_collection.json).
 
 3. Import the Postman environment by drag-and-dropping the JSON file.
-
 ![](misc/img/import_postman.png) 
 
 4. Enable the environment.
@@ -33,6 +32,8 @@ Requests can be made by various means. In this exercise we propose using Postman
 9. Import the Postman request collection by drag-and-dropping the JSON file.
 ![](misc/img/import_postman.png)
 
+10. It should look something like this:
+![](misc/img/Imported_collection.png)
 
 
 
